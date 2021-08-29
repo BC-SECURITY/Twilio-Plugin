@@ -1,6 +1,6 @@
 # Twilio-Plugin
 The Twilio Plugin is meant to show the possibilities of the Hooks feature implemented in Empire 4.1.
-It isn't particularly useful in its current state.
+It isn't particularly useful in its current state. It sends a text message every time an agent connects.
 
 ## Install
 Prerequisites:
