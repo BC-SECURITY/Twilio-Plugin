@@ -1,11 +1,16 @@
 from __future__ import print_function
 
+import logging
+
+from twilio.rest import Client
+
 from empire.server.common.plugins import Plugin
 from empire.server.core.agent_task_service import AgentTaskService
 from empire.server.core.db import models
 from empire.server.core.hooks import hooks
 from empire.server.core.plugin_service import PluginService
-from twilio.rest import Client
+
+log = logging.getLogger(__name__)
 
 
 # this class MUST be named Plugin
