@@ -1,12 +1,12 @@
 # Twilio-Plugin
-The Twilio Plugin is meant to show the possibilities of the Hooks feature implemented in Empire 4.1.
-It isn't particularly useful in its current state. It sends a text message every time an agent connects.
+The Twilio Plugin is meant to showcase the event-based features of Empire plugins.
+It sends a text message every time an agent connects.
 
 ## Install
 Prerequisites:
-- Empire >=4.1.0
+- Empire >=6.0.0
 
-1. Add twilioplugin.py to the plugins folder of Empire.
+1. Install via Starkiller plugin marketplace
 2. `poetry add twilio`
 
 ## Usage
