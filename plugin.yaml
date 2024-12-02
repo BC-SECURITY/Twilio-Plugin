@@ -1,4 +1,4 @@
-name: twilioplugin
+name: Twilio Plugin
 description: Sends an SMS message via Twilio whenever an agent checks in.
 authors:
   - name: Vincent Rose
