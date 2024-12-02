@@ -11,3 +11,4 @@ comments:
   - "This could be expanded to alert on all kinds of other events, but was created more as an example of how to utilize Empire 4.1's Hook functionality"
 python_deps:
   - twilio
+main: twilioplugin.py
