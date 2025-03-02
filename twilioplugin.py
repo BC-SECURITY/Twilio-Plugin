@@ -12,6 +12,7 @@ log = logging.getLogger(__name__)
 class Plugin(BasePlugin):
     @override
     def on_load(self, db):
+        self.execution_enabled = False
         self.settings_options = {
             "account_sid": {
                 "Description": "Account SID",
