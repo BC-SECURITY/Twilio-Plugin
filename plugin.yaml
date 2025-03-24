@@ -1,0 +1,14 @@
+name: Twilio Plugin
+description: Sends an SMS message via Twilio whenever an agent checks in.
+authors:
+  - name: Vincent Rose
+    handle: "@vinnybod"
+    link: "https://github.com/vinnybod"
+software: 
+techniques: []
+comments:
+  - "Find your account sid and auth token at twilio.com/console"
+  - "This could be expanded to alert on all kinds of other events, but was created more as an example of how to utilize Empire 4.1's Hook functionality"
+python_deps:
+  - twilio
+main: twilioplugin.py
